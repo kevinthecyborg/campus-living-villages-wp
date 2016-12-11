@@ -1,0 +1,138 @@
+//FIRST BREAKDOWN
+@media screen
+  and (min-width: 992px)
+  and (max-width: 1199px) {
+
+  .post-large {
+    .post-info {
+      padding: 63px 85px 62px;
+    }
+  }
+  .carousel-posts {
+    .video-play-button {
+      &.btn-1 {
+        left: 0;
+      }
+      &.btn-3 {
+        left: 0;
+      }
+    }
+    .post-content-1 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .post-content-3 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}
+
+// SECOND BREAKDOWN
+@media only screen and (max-width: 991px) {
+  .header-content {
+    ul {
+      li {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+  .thumb-1, .thumb-3 {
+    margin: 0 auto;
+  }
+  .thumb-3 {
+    float: none;
+  }
+  .thumb-2, .thumb-3 {
+    margin-top: 40px;
+  }
+  .carousel-posts {
+    .post-content-1, .post-content-3 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .carousel-header {
+      text-align: center !important;
+    }
+    .video-play-button {
+      top: -140px;
+
+      &.btn-1 {
+        left: 0;
+      }
+      &.btn-3 {
+        left: 0;
+      }
+    }
+  }
+  .search {
+    select {
+      margin-bottom: 25px;
+    }
+  }
+  .post-large {
+    margin-bottom: 30px;
+
+    .post-info {
+      padding: 10px 25px;
+      text-align: center;
+      color: white;
+
+      h3 {
+        font-weight: bold;
+        font-size: 24px;
+      }
+      p {
+        margin-top: 15px;
+      }
+    }
+  }
+  .main-video-title {
+    font-size: 30px;
+  }
+  .footer-category {
+    padding: 50px 0;
+  }
+}
+
+// SPECIFIC IPHONE SIZE ===============
+@media (max-width: 480px) {
+  .header.post .header-title h1 {
+    font-size: 40px;
+  }
+  .header.post .header-sub-info span {
+    display: block;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+  .blog-post .quote p {
+    font-size: 30px;
+  }
+  .blog-post .quote p:before {
+    top: 30px;
+  }
+}
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
